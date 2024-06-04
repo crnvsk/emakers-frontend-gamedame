@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.divRoot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #fbf7f3;
+    gap: 0.25rem;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3.5625rem;
+    padding-left: 5rem;
+    gap: 12rem;
+}
+
+.divMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.15rem;
+}
+
+.input{
+    width: 24.375rem;
+    height: 3.125rem;
+    border-radius: 5px;
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px 2px #dbd9d6;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.82875rem;
+}
+
+.divArrow{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.arrow{
+    cursor: pointer;
+}
+
+.divLink{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.link{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1,52375rem;
+    text-decoration: none;
+    color: #97A4A2;
+}
+
+.img1{
+    height: 52.8125rem;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 4rem;
+    color: #4B626C;
+}
