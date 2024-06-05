@@ -3,35 +3,31 @@ import arrow from "../assets/arrow.svg"
 import stormWizard from "../img/image1.png"
 import styles from "../styles/Forms.module.css"
 
-export default function RegisterPage(){
+export default function LoginPage(){
     return(
         <div className={styles.divRoot}>
-            <form className={styles.registerForm}>
+            <form className={styles.registerForm} style={{display: "flex", gap: "24rem"}}>
                 <div className={styles.divMain}>
                     <div>
-                        <h1 className={styles.title}>Registrar</h1>
-                    </div>
-                    <div>
-                        <input className={styles.input} type="text" placeholder="Nome de Usuário"/>
+                        <h1 className={styles.title}>Login</h1>
                     </div>
                     <div>
                         <input className={styles.input} type="email" placeholder="E-mail"/>
                     </div>
                     <div>
-                        <input className={styles.input} minLength={11} maxLength={11} type="number" placeholder="CPF"/>
-                    </div>
-                    <div>
                         <input className={styles.input} type="password" placeholder="Senha"/>
-                    </div>
-                    <div>
-                        <input className={styles.input} type="password" placeholder="Confirmar Senha"/>
                     </div>
                     <div className={styles.divArrow}>
                         <img className={styles.arrow} src={arrow} alt="" />
                     </div>
                 </div>
-                <div className={styles.divLink}>
-                    <Link className={styles.link} to={"/login"}>Fazer Login</Link>
+                <div className={styles.divLink} style={{display: "flex", flexDirection: "column"}}>
+                    <div>
+                        <Link className={styles.link} to={"/"}>Criar Conta</Link>
+                    </div>
+                    <div>
+                        <Link className={styles.link} to={"/recovery"}>Esqueceu a Senha?</Link>
+                    </div>
                 </div>
             </form>
             <section>
