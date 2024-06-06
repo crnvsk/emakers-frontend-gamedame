@@ -3,6 +3,7 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import RecoveryPage from "./pages/RecoveryPage";
 import ProfilePage from "./pages/ProfilePage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
         path: "/profile",
         element: <ProfilePage/>
+    },
+    {
+        path: "/error",
+        element: <NotFoundPage/>
     }
 ])
 

@@ -14,7 +14,7 @@ export default function ProfilePage() {
             <HeaderDefault />
             <main className={styles.main}>
                 <section className={styles.sectionOne}>
-                    <h1>Olá,{" <<Nome do Usuário>>"} </h1>
+                    <h1 className={styles.title1}>Olá,{" <<Nome do Usuário>>"} </h1>
                     <p className={styles.paragraphs}>Seu email é nomeusuario@email.com</p>
                     <p className={styles.paragraphs}>Seu CPF é 123.456.789-00</p>
                     <div className={styles.masterButtons}>
@@ -33,7 +33,7 @@ export default function ProfilePage() {
                 </section>
                 <section className={styles.sectionTwo}>
                     <div className={styles.divTitle}>
-                        <h3>Jogos adquiridos:</h3>
+                        <h3 className={styles.title3}>Jogos adquiridos:</h3>
                     </div>
                     <div className={styles.divGames}>
                         <div className={styles.gameCard}>

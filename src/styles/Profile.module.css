@@ -14,8 +14,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
     width: 100%;
     padding-left: 7rem;
     
@@ -29,7 +29,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     gap: 3rem;
 }
 
-h1{
+.title1{
     font-weight: 500;
     font-size: 3rem;
     line-height: 3.656875rem;
@@ -90,7 +90,7 @@ h1{
     gap: 2rem;
 }
 
-h3{
+.title3{
     width: 17.5rem;
     height: 2.4375rem;
     font-weight: 400;

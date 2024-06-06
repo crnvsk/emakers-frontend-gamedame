@@ -10,15 +10,15 @@ export default function HeaderDefault() {
                 <img className={styles.icon} src={icon} alt="wizard icon" />
             </div>
             <nav className={styles.nav}>
-                <Link className="" to={"/#"}>Lançamentos </Link>
+                <Link className="" to={"/error"}>Lançamentos </Link>
                 <div>|</div>
-                <Link className="" to={"/#"}>Populares </Link>
+                <Link className="" to={"/error"}>Populares </Link>
                 <div>|</div>
-                <Link className="" to={"/#"}>Gêneros </Link>
+                <Link className="" to={"/error"}>Gêneros </Link>
                 <div>|</div>
-                <Link className="" to={"/#"}>Promoções </Link>
+                <Link className="" to={"/error"}>Promoções </Link>
                 <div>|</div>
-                <Link className="" to={"/#"}>Conta</Link>
+                <Link className="" to={"/profile"}>Conta</Link>
             </nav>
             <div className={styles.divSearch}>
                 <input className={styles.inputSearch} type="search" />
