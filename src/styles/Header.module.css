@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.0625rem 2.5rem;
+    border: 1px solid #4b626c31;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.icon{
+    width: 6.25rem;
+}
+
+.nav{
+    display: flex;
+    font-size: 2rem;
+    color: #4B626C;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+a{
+    color: #4B626C;
+}
+
+.divSearch{
+    position: relative;
+}
+
+.inputSearch{
+    width: 10.3125rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: #97A4A273;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    appearance: none;
+    padding-left: 0.5rem;
+}
+
+.imgSearch{
+    position: absolute;
+    cursor: pointer;
+    left: 8.5rem;
+    top: 0.65rem
+}

@@ -6,7 +6,7 @@ import styles from "../styles/Forms.module.css"
 export default function RecoveryPage(){
     return(
         <div className={styles.divRoot}>
-            <form className={styles.registerForm} style={{display: "flex", gap: "24rem"}}>
+            <form className={styles.registerForm} style={{display: "flex", gap: "34.2rem"}}>
                 <div className={styles.divMain}>
                     <div>
                         <h1 className={styles.title} style={{textAlign: "center"}}>Recuperar Conta</h1>

@@ -1,0 +1,141 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.divRoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FBF6F0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    width: 100%;
+    padding-left: 7rem;
+    
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.656875rem;
+    color: #4B626C;
+}
+
+.paragraphs{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2,4375rem;
+    color:#4B626C
+}
+
+.masterButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.buttonOne, .buttonTwo{
+    width: 16.875rem;
+    height: 2.8125rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #4B626C;
+    color: #FBF6F0;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: start;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.divButtonOne{
+    position: relative;
+}
+
+.imgButton{
+    position: absolute;
+    left: 15rem;
+    top: 0.7rem
+}
+
+.buttonTwo{
+    background-color: #a3acae;
+}
+
+.sectionTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4B626C;
+    padding: 5rem 4rem 1rem 4rem;
+    gap: 2rem;
+}
+
+h3{
+    width: 17.5rem;
+    height: 2.4375rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4375rem;
+    color: #FBF6F0;
+}
+
+.divTitle{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.divGames{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+}
+
+.gameCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #FBF6F0;
+}
+
+.divKart{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 5rem;
+}
+
+.imgKart{
+    cursor: pointer;
+}

@@ -6,7 +6,7 @@ import styles from "../styles/Forms.module.css"
 export default function LoginPage(){
     return(
         <div className={styles.divRoot}>
-            <form className={styles.registerForm} style={{display: "flex", gap: "24rem"}}>
+            <form className={styles.registerForm} style={{display: "flex", gap: "30rem"}}>
                 <div className={styles.divMain}>
                     <div>
                         <h1 className={styles.title}>Login</h1>
