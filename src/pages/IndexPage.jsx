@@ -9,6 +9,7 @@ import game2 from "../img/deliverUsMars.png"
 import game3 from "../img/spellForce.png"
 import game4 from "../img/deathStranding.png"
 import game5 from "../img/perish.png"
+import carouselArrow from "../img/carouselArrow.png"
 import kart from "../assets/kart.svg"
 
 export default function IndexPage() {
@@ -19,7 +20,7 @@ export default function IndexPage() {
                 <section className={styles.sectionOne}>
                     <div className={styles.carousel}>
                         <div className={styles.game1}>
-                            <img src={daysgone} alt="Days Gone" />
+                            <img className={styles.carouselImg} src={daysgone} alt="Days Gone" />
                             <div className={styles.gameDesc1}>
                                 <div className={styles.divDiscount}>
                                     <p className={styles.discount}>-15%</p>
@@ -30,7 +31,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className={styles.game2}>
-                            <img src={horizon} alt="Horizon Zero Dawn" />
+                            <img className={styles.carouselImg} src={horizon} alt="Horizon Zero Dawn" />
                             <div className={styles.gameDesc2}>
                                 <div className={styles.divDiscount}>
                                     <p className={styles.discount}>-25%</p>
@@ -41,7 +42,9 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className={styles.game3}>
-                            <img src={gow} alt="God of War" />
+                            <Link to={"/game-gow"}>
+                                <img className={styles.carouselImg} src={gow} alt="God of War" />
+                            </Link>
                             <div className={styles.gameDesc3}>
                                 <div className={styles.divDiscount}>
                                     <p className={styles.discount}>-40%</p>
@@ -52,11 +55,14 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <nav className={styles.carouselNav}>
-                            <button className={styles.carouselButton}></button>
-                            <button className={styles.carouselButton}></button>
-                            <button className={styles.carouselButton}></button>
-                            <button className={styles.carouselButton}></button>
+                            <button className={styles.firstCarouselButton} ></button>
+                            <button className={styles.carouselButton} ></button>
+                            <button className={styles.carouselButton} ></button>
+                            <button className={styles.carouselButton} ></button>
                         </nav>
+                    </div>
+                    <div className={styles.arrow}>
+                        <img src={carouselArrow} alt="" />
                     </div>
                 </section>
                 <section className={styles.sectionTwo}>
