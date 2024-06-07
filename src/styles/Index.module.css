@@ -1,0 +1,153 @@
+.divRoot {
+    width: 100%;
+    background-color: #FBF6F0;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.sectionOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 11rem;
+    padding-bottom: 5rem;
+}
+
+.carousel {
+    display: grid;
+    grid-template-areas: "daysgone gow"
+    "horizon gow";
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.game1{
+    grid-area: daysgone;
+}
+
+.game2{
+    grid-area: horizon;
+}
+
+.game3{
+    grid-area: gow;
+}
+.gameDesc1{
+    display: flex;
+    position: absolute;
+    gap: 1rem;
+    top: 14rem;
+    padding-left: 1rem;
+}
+
+.sectionTwo {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    flex-direction: column;
+    background-color: #4B626C;
+    padding: 1.5rem 0rem 0rem 6.875rem;
+    gap: 2rem;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FBF8F3;
+}
+
+.divGames {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.divPrice1 {
+    display: flex;
+    width: 6.25rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: #FCFAFA;
+    color: #4B626C;
+    justify-content: center;
+}
+
+.price1 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.divPrice2 {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 5rem;
+    height: 1.5625rem;
+    border-radius: 5px;
+    top: 13.5rem;
+    left: 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.price2 {
+    position: relative;
+    color: #4B626C;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    top: 0.4rem;
+}
+
+.gameCard {
+    position: relative;
+}
+
+.divKart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: 5rem;
+    right: 3.5rem;
+}
+
+.kart {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    cursor: pointer;
+}
+
+.carouselNav {
+    width: 7.5rem;
+    height: 1.25rem;
+}
+
+.carouselButton {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 10px;
+    border: none;
+    color: #97A4A2;
+    cursor: pointer;
+}
+
+.divDiscount {
+    display: flex;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: #4B626C;
+    color: #FCFAFA;
+    justify-content: center;
+}
+
+.discount {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}

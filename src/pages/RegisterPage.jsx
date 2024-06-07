@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import arrow from "../assets/arrow.svg"
-import stormWizard from "../img/image1.png"
+import stormWizard from "../img/stormWizard.png"
 import styles from "../styles/Forms.module.css"
 import { useState } from "react"
 

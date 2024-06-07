@@ -1,10 +1,10 @@
 import trashcan from "../assets/trash.svg"
 import pencil from "../assets/pencil.svg"
 import kart from "../assets/kart.svg"
-import game1 from "../img/game1.png"
-import game2 from "../img/game2.png"
-import game3 from "../img/game3.png"
-import game4 from "../img/game4.png"
+import game1 from "../img/spongeBob.png"
+import game2 from "../img/deliverUsMars.png"
+import game3 from "../img/godOfWar.png"
+import game4 from "../img/deathStranding.png"
 import styles from "../styles/Profile.module.css"
 import HeaderDefault from "../components/HeaderDefault"
 
@@ -52,7 +52,6 @@ export default function ProfilePage() {
                             <img src={game4} alt="" />
                             <p className={styles.desc}>Adicionar avaliação</p>
                         </div>
-
                     </div>
                     <div className={styles.divKart}>
                         <img className={styles.imgKart} src={kart} alt="shop kart" />

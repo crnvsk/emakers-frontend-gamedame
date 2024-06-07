@@ -10,7 +10,7 @@ export default function HeaderDefault() {
                 <img className={styles.icon} src={icon} alt="wizard icon" />
             </div>
             <nav className={styles.nav}>
-                <Link className="" to={"/error"}>Lançamentos </Link>
+                <Link className="" to={"/index"}>Lançamentos </Link>
                 <div>|</div>
                 <Link className="" to={"/error"}>Populares </Link>
                 <div>|</div>

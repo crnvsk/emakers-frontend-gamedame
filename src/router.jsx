@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import RecoveryPage from "./pages/RecoveryPage";
 import ProfilePage from "./pages/ProfilePage";
 import NotFoundPage from "./pages/NotFoundPage";
+import IndexPage from "./pages/IndexPage";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
     {
         path: "/error",
         element: <NotFoundPage/>
+    },
+    {
+        path: "/index",
+        element: <IndexPage/>
     }
 ])
 

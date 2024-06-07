@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom"
 import arrow from "../assets/arrow.svg"
-import stormWizard from "../img/image1.png"
+import stormWizard from "../img/stormWizard.png"
 import styles from "../styles/Forms.module.css"
+import { useState } from "react"
 
 export default function LoginPage() {
+    const [show, setShow] = useState("password")
+    const handleFocus = () => {
+        setShow ("text")
+    }
+    const handleBlur = () => {
+        setShow ("password")
+    }
     return (
         <div className={styles.divRoot}>
             <form className={styles.registerForm} style={{ display: "flex", gap: "30rem" }}>
@@ -15,7 +23,7 @@ export default function LoginPage() {
                         <input className={styles.input} type="email" placeholder="E-mail" />
                     </div>
                     <div>
-                        <input className={styles.input} type="password" placeholder="Senha" />
+                        <input className={styles.input} type={show} placeholder="Senha" onBlur={handleBlur} onFocus={handleFocus} />
                     </div>
                     <div className={styles.divArrow}>
                         <Link to={"/profile"}>
