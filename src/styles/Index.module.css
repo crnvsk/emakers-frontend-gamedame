@@ -48,6 +48,7 @@
     grid-area: gow;
     display: flex;
 }
+
 .gameDesc1{
     display: flex;
     position: absolute;

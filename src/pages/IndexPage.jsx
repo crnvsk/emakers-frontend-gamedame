@@ -11,8 +11,39 @@ import game4 from "../img/deathStranding.png"
 import game5 from "../img/perish.png"
 import carouselArrow from "../img/carouselArrow.png"
 import kart from "../assets/kart.svg"
+import { useState } from "react"
 
 export default function IndexPage() {
+    const [button1, setHighLight1] = useState(true)
+    const [button2, setHighLight2] = useState(false)
+    const [button3, setHighLight3] = useState(false)
+    const [button4, setHighLight4] = useState(false)
+
+    const handleOnClick1 = () => {
+        setHighLight1(true)
+        setHighLight2(false)
+        setHighLight3(false)
+        setHighLight4(false)
+    }
+    const handleOnClick2 = () => {
+        setHighLight1(false)
+        setHighLight2(true)
+        setHighLight3(false)
+        setHighLight4(false)
+    }
+    const handleOnClick3 = () => {
+        setHighLight1(false)
+        setHighLight2(false)
+        setHighLight3(true)
+        setHighLight4(false)
+    }
+    const handleOnClick4 = () => {
+        setHighLight1(false)
+        setHighLight2(false)
+        setHighLight3(false)
+        setHighLight4(true)
+    }
+
     return (
         <div className={styles.divRoot}>
             <HeaderDefault />
@@ -20,7 +51,9 @@ export default function IndexPage() {
                 <section className={styles.sectionOne}>
                     <div className={styles.carousel}>
                         <div className={styles.game1}>
-                            <img className={styles.carouselImg} src={daysgone} alt="Days Gone" />
+                            <Link to={"/error"}>
+                                <img className={styles.carouselImg} src={daysgone} alt="Days Gone" />
+                            </Link>
                             <div className={styles.gameDesc1}>
                                 <div className={styles.divDiscount}>
                                     <p className={styles.discount}>-15%</p>
@@ -31,7 +64,9 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className={styles.game2}>
-                            <img className={styles.carouselImg} src={horizon} alt="Horizon Zero Dawn" />
+                            <Link to={"/error"}>
+                                <img className={styles.carouselImg} src={horizon} alt="Horizon Zero Dawn" />
+                            </Link>
                             <div className={styles.gameDesc2}>
                                 <div className={styles.divDiscount}>
                                     <p className={styles.discount}>-25%</p>
@@ -55,10 +90,10 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <nav className={styles.carouselNav}>
-                            <button className={styles.firstCarouselButton} ></button>
-                            <button className={styles.carouselButton} ></button>
-                            <button className={styles.carouselButton} ></button>
-                            <button className={styles.carouselButton} ></button>
+                            <button className={styles.firstCarouselButton} id="1" style={button1 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick1}></button>
+                            <button className={styles.carouselButton} id="2" style={button2 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick2}></button>
+                            <button className={styles.carouselButton} id="3" style={button3 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick3}></button>
+                            <button className={styles.carouselButton} id="4" style={button4 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick4}></button>
                         </nav>
                     </div>
                     <div className={styles.arrow}>
