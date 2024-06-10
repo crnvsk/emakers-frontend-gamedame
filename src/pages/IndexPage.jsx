@@ -47,7 +47,7 @@ export default function IndexPage() {
     return (
         <div className={styles.divRoot}>
             <HeaderDefault />
-            <main className={styles.main}>
+            <main className={styles.main}> 
                 <section className={styles.sectionOne}>
                     <div className={styles.carousel}>
                         <div className={styles.game1}>
@@ -77,7 +77,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className={styles.game3}>
-                            <Link to={"/game-gow"}>
+                            <Link to={"/game"}>
                                 <img className={styles.carouselImg} src={gow} alt="God of War" />
                             </Link>
                             <div className={styles.gameDesc3}>
@@ -90,7 +90,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <nav className={styles.carouselNav}>
-                            <button className={styles.firstCarouselButton} id="1" style={button1 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick1}></button>
+                            <button className={styles.carouselButton} id="1" style={button1 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick1}></button>
                             <button className={styles.carouselButton} id="2" style={button2 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick2}></button>
                             <button className={styles.carouselButton} id="3" style={button3 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick3}></button>
                             <button className={styles.carouselButton} id="4" style={button4 === false ? { backgroundColor: "#97A4A2" } : { backgroundColor: "#FCFAFA" }} onClick={handleOnClick4}></button>

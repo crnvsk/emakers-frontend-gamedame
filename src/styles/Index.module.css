@@ -1,55 +1,49 @@
-.divRoot {
-    width: 100%;
-    background-color: #FBF6F0;
-    
-}
-
-.main {
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-}
-
 .sectionOne {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 11rem;
     padding-bottom: 5rem;
-    position: relative;
 }
 
-.arrow{
+.arrow {
     position: absolute;
+    z-index: 0;
 }
 
 .carousel {
     display: grid;
     position: relative;
     grid-template-areas: "daysgone gow"
-    "horizon gow";
+        "horizon gow";
 }
 
-.carouselImg{
+.carouselImg {
     border: 1px solid #97A4A2;
-    border-collapse: collapse;
 }
 
-.game1{
+.game1 {
     grid-area: daysgone;
     display: flex;
+    width: 25.375rem;
+    height: 15rem;
 }
 
-.game2{
+.game2 {
     grid-area: horizon;
     display: flex;
+    width: 25.375rem;
+    height: 15rem;
 }
 
-.game3{
+.game3 {
     grid-area: gow;
     display: flex;
+    width: 50.875rem;
+    height: 17.5rem;
 }
 
-.gameDesc1{
+.gameDesc1 {
     display: flex;
     position: absolute;
     gap: 1rem;
@@ -57,7 +51,7 @@
     padding-left: 1rem;
 }
 
-.gameDesc2{
+.gameDesc2 {
     display: flex;
     position: absolute;
     gap: 1rem;
@@ -65,7 +59,7 @@
     padding-left: 1rem;
 }
 
-.gameDesc3{
+.gameDesc3 {
     display: flex;
     position: absolute;
     gap: 1rem;
@@ -73,27 +67,7 @@
     right: 1rem;
 }
 
-.divPrice1 {
-    display: flex;
-    position: relative;
-    width: 6.25rem;
-    height: 1.5rem;
-    border-radius: 5px;
-    background-color: #FCFAFA;
-    color: #4B626C;
-    justify-content: center;
-}
-
-.price1 {
-    position: absolute;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    top: 0.2rem;
-}
-
 .divDiscount {
-    position: relative;
     display: flex;
     width: 4rem;
     height: 1.5rem;
@@ -101,16 +75,30 @@
     background-color: #4B626C;
     color: #FCFAFA;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .discount {
-    position: absolute;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.2rem;
-    text-align: center;
-    top: 0.2rem;
+}
+
+.divPrice1 {
+    display: flex;
+    width: 6.25rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: #FCFAFA;
+    color: #4B626C;
+    justify-content: center;
+    align-items: center;
+}
+
+.price1 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .sectionTwo {
@@ -144,17 +132,15 @@
     border-radius: 5px;
     top: 13.5rem;
     left: 0.5rem;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .price2 {
-    position: relative;
     color: #4B626C;
     font-weight: 600;
     font-size: 0.75rem;
     line-height: 0.9rem;
-    top: 0.4rem;
 }
 
 .gameCard {
@@ -183,15 +169,7 @@
     top: 27.5rem;
     left: 35rem;
     gap: 0.5rem;
-    
-}
 
-.firstCarouselButton{
-    width: 1.25rem;
-    height: 1.25rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
 }
 
 .carouselButton {
@@ -200,5 +178,4 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: #97A4A2;
 }

@@ -1,0 +1,172 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.mainSection {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    padding-top: 17rem;
+    padding-left: 5rem;
+}
+
+.gameDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 25rem;
+    height: 33.1rem;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    background-color: #4B626C;
+    color: #FBF6F0;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding-top: 1.5rem;
+}
+
+.description {
+    width: 20.6rem;
+    height: 18.1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.line {
+    color: #FBF6F0;
+    width: 20.6rem;
+    position: relative;
+}
+
+.divButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    gap: 0.3rem;
+}
+
+.buyButton {
+    width: 14.3rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    border: none;
+    color: #4B626C;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: start;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.refoundButton {
+    width: 14.3rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    border: none;
+    color: #4B626C;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    opacity: 50%;
+    text-align: start;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.miniKart1 {
+    width: 1.3rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.miniKart2 {
+    width: 1.3rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+}
+
+.gameInfo {
+    display: flex;
+    position: absolute;
+    gap: 1rem;
+    bottom: 8.5rem;
+    right: 29.5rem;
+}
+
+.divDiscount {
+    position: relative;
+    display: flex;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: #4B626C;
+    color: #FCFAFA;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.discount {
+    position: absolute;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.divPrice {
+    display: flex;
+    position: relative;
+    width: 6.25rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: #FCFAFA;
+    color: #4B626C;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    position: absolute;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    
+}
+
+.discountValue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 20rem;
+    background-color: #4B626C;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FBF6F0;
+    top: 20.5rem;
+    left: 2.5rem;
+}
+
+.shopKart{
+    display: flex;
+    position: absolute;
+    top: 65rem;
+    right: 1.5rem;
+}

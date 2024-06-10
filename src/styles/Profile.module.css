@@ -9,7 +9,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #FBF6F0;
 }
 
 .main{

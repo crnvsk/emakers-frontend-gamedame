@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    background-color: #fbf7f3;
     gap: 0.25rem;
     overflow-y: hidden;
 }
