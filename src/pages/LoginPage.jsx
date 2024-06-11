@@ -7,10 +7,10 @@ import { useState } from "react"
 export default function LoginPage() {
     const [show, setShow] = useState("password")
     const handleFocus = () => {
-        setShow ("text")
+        setShow("text")
     }
     const handleBlur = () => {
-        setShow ("password")
+        setShow("password")
     }
     return (
         <div className={styles.divRoot}>

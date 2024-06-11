@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,11 +8,11 @@
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.icon{
+.icon {
     width: 6.25rem;
 }
 
-.nav{
+.nav {
     display: flex;
     font-size: 2rem;
     color: #4B626C;
@@ -23,15 +23,15 @@
     line-height: 2.5rem;
 }
 
-a{
+a {
     color: #4B626C;
 }
 
-.divSearch{
+.divSearch {
     position: relative;
 }
 
-.inputSearch{
+.inputSearch {
     width: 10.3125rem;
     height: 2.5rem;
     border-radius: 15px;
@@ -42,7 +42,7 @@ a{
     padding-left: 0.5rem;
 }
 
-.imgSearch{
+.imgSearch {
     position: absolute;
     cursor: pointer;
     left: 8.5rem;

@@ -147,7 +147,7 @@
     position: relative;
 }
 
-.divKart {
+.divCart {
     position: relative;
     display: flex;
     align-items: center;
@@ -156,7 +156,7 @@
     right: 3.5rem;
 }
 
-.kart {
+.cart {
     width: 4.5rem;
     cursor: pointer;
 }

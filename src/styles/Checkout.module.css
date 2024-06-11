@@ -1,0 +1,182 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 57.5rem;
+
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    background-color: #4B626C;
+    color: #FFFFFF;
+    gap: 1.5rem;
+}
+
+.title1{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    padding: 3rem 0rem 0rem 3rem;
+}
+
+.divGame{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.divDesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.name1{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 12.5rem;
+    height: 3rem;
+}
+
+.name2{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 12.5rem;
+    height: 1.5rem;
+}
+
+.platform{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 7.5rem;
+    height: 1.25rem;
+}
+
+.price1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    width: 10rem;
+    height: 2.4rem;
+    padding-top: 8.5rem;
+}
+
+.price2{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    width: 10rem;
+    height: 2.4rem;
+    padding-top: 10rem;
+}
+
+.divLine{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 25.125rem;
+    background-color: #FBF6F0;
+}
+
+.divTotal{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.totalPrice{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.sectionTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 3rem;
+}
+
+.title2{
+    display: flex;
+    padding: 5rem 0rem 0rem 1rem;
+    width: 29rem;
+    height: 2.75rem;
+    font-weight: 500;
+    font-size: 36px;
+    color: #4B626C;
+}
+
+.divPix{
+    display: flex;
+    padding-top: 7rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pix{
+    width: 3.1rem;
+    height: 2.4rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #4B626C;
+}
+
+.checkbox{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: #A097A4;
+    cursor: pointer;
+}
+
+.line2{
+    width: 25.125rem;
+    background-color: #4B626C;
+}
+
+.termsCheckbox{
+    display: flex;
+    gap: 1rem;
+}
+
+.terms{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #4B626C;
+}
+
+.divBuy{
+    display: flex;
+}
+
+.buyButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    width: 13.1rem;
+    height: 2.5rem;
+    background-color: #4B626C;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FBF6F0;
+}
+
+.miniCart{
+    position: absolute;
+    right: 8.8rem;
+    bottom: 18rem;
+}

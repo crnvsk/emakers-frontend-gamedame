@@ -6,6 +6,7 @@ import ProfilePage from "./pages/ProfilePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import IndexPage from "./pages/IndexPage";
 import GamePage from "./pages/GamePage";
+import CheckoutPage from "./pages/CheckoutPage";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
     {
         path: "/game",
         element: <GamePage />
+    },
+    {
+        path: "/checkout",
+        element: <CheckoutPage />
     }
 ])
 

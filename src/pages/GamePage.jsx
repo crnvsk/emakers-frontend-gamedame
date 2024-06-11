@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom"
 import styles from "../styles/Game.module.css"
 import HeaderDefault from "../components/HeaderDefault";
 import gowWide from "../img/gowWide.png"
-import blueKart from "../assets/blueKart.svg"
-import miniKart from "../assets/miniKart.svg"
+import blueCart from "../assets/blueCart.svg"
+import miniCart from "../assets/miniCart.svg"
 
 export default function GamePage() {
     return (
@@ -39,13 +40,15 @@ export default function GamePage() {
                         <hr className={styles.line} />
                         <div className={styles.divButtons}>
                             <button className={styles.buyButton}>Adicionar ao Carrinho</button>
-                            <img className={styles.miniKart1} src={miniKart} alt="" />
+                            <img className={styles.miniCart1} src={miniCart} alt="" />
                             <button className={styles.refoundButton}>Solicitar Reembolso</button>
-                            <img className={styles.miniKart2} src={miniKart} alt="" />
+                            <img className={styles.miniCart2} src={miniCart} alt="" />
                         </div>
                     </div>
-                    <div className={styles.shopKart}>
-                        <img src={blueKart} alt="" />
+                    <div className={styles.shopCart}>
+                        <Link to={"/checkout"}>
+                            <img src={blueCart} alt="" />
+                        </Link>
                     </div>
                 </section>
             </main>

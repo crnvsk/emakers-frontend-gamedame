@@ -82,7 +82,7 @@
     cursor: pointer;
 }
 
-.miniKart1 {
+.miniCart1 {
     width: 1.3rem;
     height: 0.9rem;
     position: absolute;
@@ -90,7 +90,7 @@
     right: 0.5rem;
 }
 
-.miniKart2 {
+.miniCart2 {
     width: 1.3rem;
     height: 0.9rem;
     position: absolute;
@@ -144,10 +144,10 @@
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.2rem;
-    
+
 }
 
-.discountValue{
+.discountValue {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +164,7 @@
     left: 2.5rem;
 }
 
-.shopKart{
+.shopCart {
     display: flex;
     position: absolute;
     top: 65rem;

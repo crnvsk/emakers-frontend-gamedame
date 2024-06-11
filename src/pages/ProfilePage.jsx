@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom"
 import trashcan from "../assets/trash.svg"
 import pencil from "../assets/pencil.svg"
-import kart from "../assets/kart.svg"
+import cart from "../assets/cart.svg"
 import game1 from "../img/spongeBob.png"
 import game2 from "../img/deliverUsMars.png"
 import game3 from "../img/godOfWar.png"
@@ -53,8 +54,10 @@ export default function ProfilePage() {
                             <p className={styles.desc}>Adicionar avaliação</p>
                         </div>
                     </div>
-                    <div className={styles.divKart}>
-                        <img className={styles.imgKart} src={kart} alt="shop kart" />
+                    <div className={styles.divCart}>
+                        <Link to={"/checkout"}>
+                            <img className={styles.imgcart} src={cart} alt="shopping cart" />
+                        </Link>
                     </div>
                 </section>
             </main>

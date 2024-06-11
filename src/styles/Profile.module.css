@@ -1,9 +1,11 @@
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
 
-.divRoot{
+.divRoot {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,16 +13,16 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     flex-wrap: wrap;
 }
 
-.main{
+.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
     width: 100%;
     padding-left: 7rem;
-    
+
 }
 
-.sectionOne{
+.sectionOne {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,21 +30,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     gap: 3rem;
 }
 
-.title1{
+.title1 {
     font-weight: 500;
     font-size: 3rem;
     line-height: 3.656875rem;
     color: #4B626C;
 }
 
-.paragraphs{
+.paragraphs {
     font-weight: 400;
     font-size: 2rem;
-    line-height: 2,4375rem;
-    color:#4B626C
+    line-height: 2, 4375rem;
+    color: #4B626C
 }
 
-.masterButtons{
+.masterButtons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -51,7 +53,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     gap: 2rem;
 }
 
-.buttonOne, .buttonTwo{
+.buttonOne,
+.buttonTwo {
     width: 16.875rem;
     height: 2.8125rem;
     border-radius: 10px;
@@ -65,21 +68,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     cursor: pointer;
 }
 
-.divButtonOne{
+.divButtonOne {
     position: relative;
 }
 
-.imgButton{
+.imgButton {
     position: absolute;
     left: 15rem;
     top: 0.7rem
 }
 
-.buttonTwo{
+.buttonTwo {
     background-color: #a3acae;
 }
 
-.sectionTwo{
+.sectionTwo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +92,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     gap: 2rem;
 }
 
-.title3{
+.title3 {
     width: 17.5rem;
     height: 2.4375rem;
     font-weight: 400;
@@ -98,21 +101,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     color: #FBF6F0;
 }
 
-.divTitle{
+.divTitle {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: flex-start;
 }
 
-.divGames{
+.divGames {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 5rem;
 }
 
-.gameCard{
+.gameCard {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,21 +123,19 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     gap: 0.7rem;
 }
 
-.desc{
+.desc {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.375rem;
     color: #FBF6F0;
 }
 
-.divKart{
+.divCart {
     display: flex;
     width: 100%;
-    align-items: center;
     justify-content: flex-end;
-    padding-left: 5rem;
 }
 
-.imgKart{
+.imgCart {
     cursor: pointer;
 }

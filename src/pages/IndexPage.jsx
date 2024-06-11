@@ -10,7 +10,7 @@ import game3 from "../img/spellForce.png"
 import game4 from "../img/deathStranding.png"
 import game5 from "../img/perish.png"
 import carouselArrow from "../img/carouselArrow.png"
-import kart from "../assets/kart.svg"
+import cart from "../assets/cart.svg"
 import { useState } from "react"
 
 export default function IndexPage() {
@@ -47,7 +47,7 @@ export default function IndexPage() {
     return (
         <div className={styles.divRoot}>
             <HeaderDefault />
-            <main className={styles.main}> 
+            <main className={styles.main}>
                 <section className={styles.sectionOne}>
                     <div className={styles.carousel}>
                         <div className={styles.game1}>
@@ -145,9 +145,9 @@ export default function IndexPage() {
                                 <p className={styles.price2}>R$299,00</p>
                             </div>
                         </div>
-                        <div className={styles.divKart}>
-                            <Link to={"/error"}>
-                                <img className={styles.kart} src={kart} alt="" />
+                        <div className={styles.divCart}>
+                            <Link to={"/checkout"}>
+                                <img className={styles.cart} src={cart} alt="" />
                             </Link>
                         </div>
                     </div>
