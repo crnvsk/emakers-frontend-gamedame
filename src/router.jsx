@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import IndexPage from "./pages/IndexPage";
 import GamePage from "./pages/GamePage";
 import CheckoutPage from "./pages/CheckoutPage";
+import AdminPage from "./pages/AdminPage";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
     {
         path: "/checkout",
         element: <CheckoutPage />
+    },
+    {
+        path: "/admin",
+        element: <AdminPage />
     }
 ])
 

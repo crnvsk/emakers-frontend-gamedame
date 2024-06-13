@@ -1,0 +1,153 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4B626C;
+    width: 30rem;
+    height: 57.3rem;
+}
+
+.titleOne {
+    width: 16rem;
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #FBF6F0;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 5rem;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    width: 24.3rem;
+    height: 3.1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #97A4A2;
+    text-align: center;
+}
+
+.inputTwo {
+    display: flex;
+    width: 24.3rem;
+    height: 9.6rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #97A4A2;
+    text-align: center;
+}
+
+.inputThree {
+    display: flex;
+    width: 12.5rem;
+    height: 3.1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #97A4A2;
+    text-align: center;
+}
+
+.input::placeholder{
+    color: #97A4A2;
+}
+
+.inputTwo::placeholder{
+    color: #97A4A2;
+}
+
+.inputThree::placeholder{
+    color: #97A4A2;
+}
+
+.divButton {
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.button {
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #606060;
+    font-weight: 400;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.titleTwo {
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #4B626C;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.divInputsTwo {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.inputFour  {
+    display: flex;
+    width: 24.3rem;
+    height: 3.1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: #4B626C;
+    text-align: center;
+}
+
+.inputFour::placeholder{
+    color: #FFFFFF;
+}
+
+.divButtonTwo {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.buttonTwo {
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #4B626C;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
