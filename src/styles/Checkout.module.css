@@ -172,7 +172,8 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: #FBF6F0;
+    color: #FBF6F0; 
+    cursor: pointer;
 }
 
 .miniCart{
