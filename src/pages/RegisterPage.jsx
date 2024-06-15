@@ -26,7 +26,7 @@ export default function RegisterPage() {
                         <input className={styles.input} type="email" placeholder="E-mail" />
                     </div>
                     <div>
-                        <input className={styles.input} minLength={11} maxLength={11} type="number" placeholder="CPF" />
+                        <input className={styles.input} minLength={11} maxLength={11} type="text" placeholder="CPF" />
                     </div>
                     <div>
                         <input className={styles.input} type={show} placeholder="Senha" onBlur={handleBlur} onFocus={handleFocus} />
